@@ -27,6 +27,8 @@ ul.dropdown-menu li:hover {
 
 .visible {
   display: block;
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: transform 0.3s ease-out;
+
 }
-
-
